@@ -14,6 +14,8 @@ if "secret_word" not in st.session_state:
 
 st.title("🎮 Hangman Game")
 st.write("Guess the fruit name")
+st.write("You must only input lowercase letters.")
+
 
 st.write("### Word:")
 st.write(" ".join(st.session_state.correct))
